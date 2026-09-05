@@ -40,7 +40,7 @@ function initNavbar() {
   function closeMobileMenu() {
     mobileMenu?.classList.remove('open');
     mobileBackdrop?.classList.remove('open');
-    document.body.style.overflow = 'auto';
+    document.body.style.overflow = '';
   }
 
   mobileToggle?.addEventListener('click', openMobileMenu);
